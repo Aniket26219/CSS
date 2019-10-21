@@ -6,3 +6,9 @@
     font-size: 30px;
     color: blue;
 }
+.lowercase{
+    text-transform: lowercase;
+}
+#redhigh{
+    font-size: 50px;
+}
