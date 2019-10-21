@@ -1,14 +1,7 @@
-.red{
-    color: red;
-    font-size: 30px;
+div{
+    color: aqua;
+    background:chocolate;
 }
-.blue{
-    font-size: 30px;
-    color: blue;
-}
-.lowercase{
-    text-transform: lowercase;
-}
-#redhigh{
-    font-size: 50px;
+span{
+    text-transform: uppercase;
 }
