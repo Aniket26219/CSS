@@ -1,7 +1,8 @@
 .tha{
-    color: blue;
+    color:rgb(240,183,78);
+    background: rgb(130, 59,68);
 }
 p{
-    color: red;
-    background: black;
+    color:rgb(46,86,99);
+    background: rgb(10,97,2);
 }
