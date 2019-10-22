@@ -1,29 +1,7 @@
-.lightcoral{
-    color: lightcoral;
-    background: lightskyblue;
+p{
+    color: mintcream;
 }
-.red{
-    color: royalblue;
-    background: skyblue;
-}
-.lkj{
-    color: peru;
-    background: mistyrose;
-    text-transform: uppercase;
-}
-.devil{
-    color: maroon;
-    background: grey;
-}
-span{
-    text-transform: uppercase;
-}
-.body{
-    color: firebrick;
-}
-.heading{
-    color: red;
-}
-.div{
-    color: saddlebrown;
+p{
+    color: moccasin;
+    background: black;
 }
