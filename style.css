@@ -1,6 +1,19 @@
-div{
-    color: aqua;
-    background:chocolate;
+.lightcoral{
+    color: lightcoral;
+    background: lightskyblue;
+}
+.red{
+    color: royalblue;
+    background: skyblue;
+}
+.lkj{
+    color: peru;
+    background: mistyrose;
+    text-transform: uppercase;
+}
+.devil{
+    color: maroon;
+    background: grey;
 }
 span{
     text-transform: uppercase;
