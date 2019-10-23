@@ -1,13 +1,14 @@
-html {
-  font-size: 32px;
-}
-body {
-  font-size: 32px;
+*{
+    margin: 0;
 }
 .heading1 {
-  font-size: 2rem;
+  width: 100vw;
+  height: 100vh;
+  background: red;
 }
 .heading2 {
-  font-size: 32px;
+  width: 50vw;
+  height: 50vh;
+  background: blue;
 }
 /* in the rem sizing the rem does not get affeted by the parent but get affeted by the root element */
