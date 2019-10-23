@@ -1,12 +1,10 @@
-.tha{
-    color:#0a7ce6;
-    background: #fbff02;
-    width: 180px;
-    font-size: 30px;
+.parent{
+    background: blueviolet;
+    width: 300px;
+    height: 300px;
 }
-h3{
-    color:#ff0000;
-    background: #00f08c;
-    width: 180px;
-    font-size: 30px;
+.child{
+    background: coral;
+    width: 50%;
+    height: 50%;
 }
