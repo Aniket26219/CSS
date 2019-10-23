@@ -1,13 +1,13 @@
-html{
-    font-size: 32px;
+html {
+  font-size: 32px;
 }
-body{
-    font-size: 23px;
+body {
+  font-size: 32px;
 }
-.heading1{
-    font-size: 2em;
+.heading1 {
+  font-size: 2rem;
 }
-.heading2{
-    font-size: 32px;
+.heading2 {
+  font-size: 32px;
 }
-/* here in the em sizing the em get affeted by the root as well as the parent element */
+/* in the rem sizing the rem does not get affeted by the parent but get affeted by the root element */
