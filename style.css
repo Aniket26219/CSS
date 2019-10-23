@@ -1,14 +1,9 @@
-*{
-    margin: 0;
+.one{
+  font-size: 30px;
+  background: firebrick;
+  height: 50px;
 }
-.heading1 {
-  width: 100vw;
-  height: 100vh;
-  background: red;
+.two{
+  background: cadetblue;
+  min-height: calc(100vh - 50px);
 }
-.heading2 {
-  width: 50vw;
-  height: 50vh;
-  background: blue;
-}
-/* in the rem sizing the rem does not get affeted by the parent but get affeted by the root element */
