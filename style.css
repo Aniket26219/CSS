@@ -1,13 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.block{
-    background: red;
-    color: white;
-    width: 100px;
-    margin: 5px auto;
+ul li{
+    list-style-type: none;
 }
-.inline{
-    background: blue;
+ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    background: black;
     color: white;
+    display: block;
+    padding: 20px;
+    margin: 5px;
 }
