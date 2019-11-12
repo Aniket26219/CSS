@@ -1,9 +1,6 @@
-.one{
-  font-size: 30px;
-  background: firebrick;
-  height: 50px;
+h1 {
+    text-align: center;
 }
-.two{
-  background: cadetblue;
-  min-height: calc(100vh - 50px);
+body {
+    text-indent: 50px;
 }
