@@ -1,18 +1,10 @@
-div{
-    margin: 3rem;
-}
-#one{
-    background: black;
+.block{
+    background: red;
     color: white;
-    padding: 30px;
-    margin: 30px;
-    border: 5px ridge red;
+    display: inline;
 }
-#two{
-    background: black;
+.inline{
+    background: blue;
     color: white;
-    padding: 30px;
-    margin: 30px;
-    outline: 5px ridge red;
-    outline-offset: -20px;
+    display: block;
 }
