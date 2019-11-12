@@ -1,16 +1,18 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-a{
-    text-transform: capitalize;
-    text-decoration: none;
-    background: black;
+.one,.two,.three{
     color: white;
-    display: inline-block;
+    width: 200px;
+    height: 200px;
+    font-size: 3rem;
+}
+.one{
+    background: red;
     padding: 20px;
-    margin: 40px;
+    box-sizing: border-box;
+}
+.two{
+    background: green;
+}
+.three{
+    background: blue;
+    padding: 20px;
 }
