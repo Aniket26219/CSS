@@ -5,15 +5,12 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-ul li{
-    list-style-type: none;
-}
-ul li a{
+a{
     text-transform: capitalize;
     text-decoration: none;
     background: black;
     color: white;
-    display: block;
+    display: inline-block;
     padding: 20px;
-    margin: 5px;
+    margin: 40px;
 }
