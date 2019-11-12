@@ -1,20 +1,14 @@
-a{
-    text-decoration: none;
-}
-h1{
-    text-decoration: underline;
-    text-align: center;
-}
 .one{
-    line-height: 25px;
-    text-decoration: line-through;
+    background: orangered;
+    margin: 0px;
 }
 .two{
-    letter-spacing: 11px;
-    line-height: 1.5rem;
-    text-decoration: overline;
+    background: white;
+    margin: 0px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
 }
 .three{
-    word-spacing: 15px;
-    text-transform: capitalize;
+    background: green;
+    margin: 0px;
 }
