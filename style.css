@@ -10,11 +10,17 @@ div{
 }
 .small{
     background: url('./small.jpg');
-    background-repeat: round;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: right;
+    background-position: bottom;
+    background-position: top;
+    background-position: 30% 80%;
 }
 .folder{
     background: url('./images/image.jpeg');
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-repeat: repeat-x;
     background-repeat: repeat-y;
     background-size: 100px 100px;
