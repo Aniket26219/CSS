@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 h1{
     min-height: 100vh;
     display: flex;
@@ -10,5 +13,13 @@ h1{
     background: url('./big.jpeg')center/cover fixed no-repeat;
 }
 .two{
-    background:linear-gradient(to top left,rgba(200,150,0,0.5),rgba(50,180,235,0.5)), url('./big.jpeg')center/cover fixed no-repeat;
+    background:radial-gradient(ellipse at center,  rgba(255,5,9,0.73) 0%,rgba(0,45,229,0.42) 100%), url('./big.jpeg')center/cover fixed no-repeat;
+}
+.colorzilla{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0509+0,002de5+100&0.73+0,0.42+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,5,9,0.73) 0%, rgba(0,45,229,0.42) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,5,9,0.73) 0%,rgba(0,45,229,0.42) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(255,5,9,0.73) 0%,rgba(0,45,229,0.42) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#baff0509', endColorstr='#6b002de5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
