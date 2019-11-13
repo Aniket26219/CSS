@@ -1,20 +1,21 @@
 div{
-    background: black;
-    color: white;
-    margin: 5px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: yellow;
+    height: 300px;
 }
-.none{
-    display: none;
+.big{
+    background: url('./big.jpeg');
+    background-repeat: space;
 }
-.opacity-0{
-    opacity: 0;
+.small{
+    background: url('./small.jpg');
+    background-repeat: round;
 }
-.opacity-1{
-    opacity: 1;
-}
-.visibility{
-    visibility: hidden;
-}
-.opacity-5{
-    opacity: 0.5;
+.folder{
+    background: url('./images/image.jpeg');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: 100px 100px;
 }
