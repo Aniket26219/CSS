@@ -1,18 +1,20 @@
-.one,.two,.three{
+div{
+    background: black;
     color: white;
-    width: 200px;
-    height: 200px;
-    font-size: 3rem;
+    margin: 5px;
 }
-.one{
-    background: red;
-    padding: 20px;
-    box-sizing: border-box;
+.none{
+    display: none;
 }
-.two{
-    background: green;
+.opacity-0{
+    opacity: 0;
 }
-.three{
-    background: blue;
-    padding: 20px;
+.opacity-1{
+    opacity: 1;
+}
+.visibility{
+    visibility: hidden;
+}
+.opacity-5{
+    opacity: 0.5;
 }
