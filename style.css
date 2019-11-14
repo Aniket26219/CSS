@@ -1,28 +1,14 @@
-img{
-    width: 100px;
-    height: 100px;
-    position: absolute;
+p::before {
+    content: "Hello ";
+    background: black;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
 }
-div{
-    margin: 50px;
-    height: 80vh;
-    width: 80vw;
-    border: 2px solid rgb(240,140,40);
-    position: relative;
-    /* if we make the position static the z index would not be work */
-}
-.one{
-    top: 0;
-    left: 0;
-    z-index: 3;
-}
-.two{
-    top: 10%;
-    left: 15%;
-    z-index: 2;
-}
-.three{
-    top: 20%;
-    left: 25%;
-    z-index: 1;
+p::After {
+    content: "bye-bye ";
+    background: red;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
 }
