@@ -1,6 +1,4 @@
-p::first-line{
-    font-weight: bolder;
-}
-p::first-letter{
-    font-size: 25px;
+/* :: used for the pseudo elements and : used for the pseudo classes */
+p:hover{
+    font-size: 32px;
 }
