@@ -1,17 +1,21 @@
 div{
-    border: 3px solid black;
-    position: static;
+    margin-top: 50px;
+    border: 2px solid rgb(129, 89, 244);
+    background: black;
     color: white;
+    position: relative;
+    font-size: 25px;
 }
 .one{
     background: red;
+    position: relative;
 }
 .two{
     background: green;
 }
 .special{
     background: blue;
-    position: relative;
-    top:10px;
-    left: 15px;
+    position: absolute;
+    top: 0%;
+    right: 30px;
 }
