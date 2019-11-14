@@ -9,6 +9,7 @@ div{
     width: 80vw;
     border: 2px solid rgb(240,140,40);
     position: relative;
+    /* if we make the position static the z index would not be work */
 }
 .one{
     top: 0;
