@@ -1,3 +1,4 @@
+/* the child means which are directly under the parent and the descendant menas which child after child like in this one the first css style is applicable for child and descendant both but the second css styling is only applicable for the child not for the descendant */
 div h1{
     color: red;
 }
