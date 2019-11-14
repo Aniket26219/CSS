@@ -1,21 +1,31 @@
-div{
-    margin-top: 50px;
-    border: 2px solid rgb(129, 89, 244);
-    background: black;
-    color: white;
-    position: relative;
-    font-size: 25px;
-}
-.one{
+body{
     background: red;
-    position: relative;
 }
-.two{
-    background: green;
+div{
+    background: black;
 }
-.special{
-    background: blue;
-    position: fixed;
-    top: 30%;
-    right: 30px;
+h1{
+    color: white;
+}
+@media screen and (min-width: 750px){
+    body{
+    background: rgb(78,199,21);
+}
+div{
+    background: rgb(215,65,99);
+}
+h1{
+    color: white;
+}   
+}
+@media screen and (max-width: 550px){
+    body{
+    background: rgb(210,100,20);
+}
+div{
+    background: rgb(87,142,210);
+}
+h1{
+    color: white;
+}   
 }
