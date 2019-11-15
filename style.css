@@ -1,4 +1,4 @@
-/* transform scale property will grow or shrink the element by its original size the scaleX property will grow or shrink the left and right side of the elements and ScaleY property will grow or shrink the up and down side of the elements */
+/* transform translate property will move the elements X and y but translateX property will just move the elements to X axis meaning left and right and translateY property just move the elements to the Y axis meaning up and down */
 div{
     width: 200px;
     height: 200px;
@@ -6,13 +6,13 @@ div{
 }
 .one{
     background: red;
-    transform: scaleX(2);
+    transform: translateX(100px);
 }
 .two{
     background: green;
-    transform: scaleY(0.5);
+    transform: translateY(100px);
 }
 .three{
     background: blue;
-    transform: scale(1.2);
+    transform: translate(50%,50%);
 }
