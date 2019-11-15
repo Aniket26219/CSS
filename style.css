@@ -1,4 +1,4 @@
-/* this are the default transition timing functions which are ease-in, ease-out and ease-in-out */
+/* animation is like we can control every percent but unlike the transition we can't control every percent */
 div{
     width: 100px;
     height: 100px;
@@ -9,12 +9,34 @@ div{
     transition: all 1s;
 }
 .two{
-    background: green;
-    transition: all 1s ease;
-    transition: all 1s ease-in;
-    transition: all 1s ease-out;
-    transition: all 1s ease-in-out;
+    background: blue;
+    /* animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: 1; */
+    animation: anime 5s 1;
 }
-div:hover{
+.one:hover{
     transform: translateX(100px);
+}
+@keyframes anime{
+    10%{
+        transform: translateX(30px);
+        background: rgb(230, 176, 201);
+    }
+    25%{
+        transform: translateX(50px);
+        background: black;
+    }
+    50%{
+        transform: translateX(70px);
+        background: blue;
+    }
+    75%{
+        transform: translateX(-10px);
+        background: green;
+    }
+    100%{
+        transform: translateX(50px);
+        background: orangered;
+    }
 }
