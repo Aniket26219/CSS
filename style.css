@@ -1,4 +1,4 @@
-/* transform translate property will move the elements X and y but translateX property will just move the elements to X axis meaning left and right and translateY property just move the elements to the Y axis meaning up and down */
+/* transfrom rotate property will rotate the elements */
 div{
     width: 200px;
     height: 200px;
@@ -6,13 +6,13 @@ div{
 }
 .one{
     background: red;
-    transform: translateX(100px);
+    transform: rotate(284deg);
 }
 .two{
     background: green;
-    transform: translateY(100px);
+    transform: rotate(174deg);
 }
 .three{
     background: blue;
-    transform: translate(50%,50%);
+    transform: rotate(75deg);
 }
