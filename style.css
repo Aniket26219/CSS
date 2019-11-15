@@ -1,14 +1,18 @@
-/* here I have visited the youtube link so that visited link is gone red but I didn't have any top Id so that means I don't have visited the top so they all are by default red from the parent and in hover link whenever I hover over it then it goes to background blue and whenever I hold or click on the active link it goes to yellow and when I go back it is red now that means I have visited that link*/
-a{
-    background: black;
-    color: white;
+/* transform scale property will grow or shrink the element by its original size the scaleX property will grow or shrink the left and right side of the elements and ScaleY property will grow or shrink the up and down side of the elements */
+div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
 }
-a:visited{
+.one{
     background: red;
+    transform: scaleX(2);
 }
-a:hover{
+.two{
+    background: green;
+    transform: scaleY(0.5);
+}
+.three{
     background: blue;
-}
-a:active{
-    background: yellow;
+    transform: scale(1.2);
 }
