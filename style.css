@@ -1,4 +1,4 @@
-/* skewX will only skew on the X axis means it will only take effect on the left and right and skewY will take only effect on the Y axis but the skew will take effect on both the axis but we have to provide 2 values otherwise it will take only effect on the X-axis */
+/* in transition first we have to give the property then we have to give the duration and delay is an optional we write it by shortend by giving all the properties in one like I have done for the red color and there I have given all meaning all the elements have the transition effect but in second one I have done for 2 elements we can do by all three ways that I have given */
 div{
     width: 200px;
     height: 200px;
@@ -6,13 +6,27 @@ div{
 }
 .one{
     background: red;
-    transform: skewX(32deg); 
+    transition: all 1s;
 }
 .two{
     background: green;
-    transform:skewY(23deg);
+    transition: background 1s,border-radius 1s;
 }
 .three{
     background: blue;
-    transform:skew(18deg,19deg)
+    transition-property: background,border-radius;
+    transition-duration: 1s;
+
+}
+.one:hover{
+    background: black;
+    border-radius: 50%;
+}
+.two:hover{
+    background: orange;
+    border-radius: 50%;
+}
+.three:hover{
+    background: mediumorchid;
+    border-radius: 50%;
 }
