@@ -1,8 +1,8 @@
-/* in transition first we have to give the property then we have to give the duration and delay is an optional we write it by shortend by giving all the properties in one like I have done for the red color and there I have given all meaning all the elements have the transition effect but in second one I have done for 2 elements we can do by all three ways that I have given */
+/* this are the default transition timing functions which are ease-in, ease-out and ease-in-out */
 div{
-    width: 200px;
-    height: 200px;
-    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
 }
 .one{
     background: red;
@@ -10,23 +10,11 @@ div{
 }
 .two{
     background: green;
-    transition: background 1s,border-radius 1s;
+    transition: all 1s ease;
+    transition: all 1s ease-in;
+    transition: all 1s ease-out;
+    transition: all 1s ease-in-out;
 }
-.three{
-    background: blue;
-    transition-property: background,border-radius;
-    transition-duration: 1s;
-
-}
-.one:hover{
-    background: black;
-    border-radius: 50%;
-}
-.two:hover{
-    background: orange;
-    border-radius: 50%;
-}
-.three:hover{
-    background: mediumorchid;
-    border-radius: 50%;
+div:hover{
+    transform: translateX(100px);
 }
