@@ -1,4 +1,4 @@
-/* transfrom rotate property will rotate the elements and if we use the rotateX then it will grow and shrink on the Y axis meaning it will becoming small and big on the up and bottom and if we use the rotateY then it will grow and shrink on the X axis meaning it will becoming small and big on the left and right*/
+/* skewX will only skew on the X axis means it will only take effect on the left and right and skewY will take only effect on the Y axis but the skew will take effect on both the axis but we have to provide 2 values otherwise it will take only effect on the X-axis */
 div{
     width: 200px;
     height: 200px;
@@ -6,14 +6,13 @@ div{
 }
 .one{
     background: red;
-    transform: rotateX(78deg);
-    /* transform: rotateY(138deg); */
+    transform: skewX(32deg); 
 }
 .two{
     background: green;
-    /* transform: rotate(174deg); */
+    transform:skewY(23deg);
 }
 .three{
     background: blue;
-    /* transform: rotate(75deg); */
+    transform:skew(18deg,19deg)
 }
