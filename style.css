@@ -1,4 +1,4 @@
-/* transfrom rotate property will rotate the elements */
+/* transfrom rotate property will rotate the elements and if we use the rotateX then it will grow and shrink on the Y axis meaning it will becoming small and big on the up and bottom and if we use the rotateY then it will grow and shrink on the X axis meaning it will becoming small and big on the left and right*/
 div{
     width: 200px;
     height: 200px;
@@ -6,13 +6,14 @@ div{
 }
 .one{
     background: red;
-    transform: rotate(284deg);
+    transform: rotateX(78deg);
+    /* transform: rotateY(138deg); */
 }
 .two{
     background: green;
-    transform: rotate(174deg);
+    /* transform: rotate(174deg); */
 }
 .three{
     background: blue;
-    transform: rotate(75deg);
+    /* transform: rotate(75deg); */
 }
